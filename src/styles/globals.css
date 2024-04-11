@@ -20,17 +20,17 @@
   box-sizing: border-box;
 }
 
-html, body, #__next {
+html, body {
   overflow: hidden;
 }
 
-html, body, #__next, #page {
+html, body, #app {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-#page {
+#app {
   overflow-y: auto;
 }
 
